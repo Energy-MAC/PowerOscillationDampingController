@@ -23,7 +23,7 @@ using Distributions
 ##################################################
 ############### LOAD DATA ########################
 ##################################################
-include(joinpath(pwd(), "src/bss_functions.jl"))
+include(joinpath(pwd(), "src/ssid_functions.jl"))
 include(joinpath(pwd(), "src/models/3Bus.jl"))
 
 tstop=5.0
